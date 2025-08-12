@@ -1,0 +1,208 @@
+* {
+    font-family: "M PLUS Rounded 1c", cursive;
+    margin: 0;
+}
+.div-menu {
+    background-color: #f3f8ff;
+    height: 50px;
+    width: 1480px;
+    display: flex;
+    align-items: center;
+}
+.menubar {
+    background-color: #f3f8ff;
+    height: 55px;
+    width: 1490px;
+    display: flex;
+    align-items: center;
+    position:fixed;
+    margin-top: -0.5px;
+    border: 1px solid #284e6e;
+    z-index: 1;
+}
+.img-logo {
+    margin: 5px;
+    margin-left: 100px;
+    height: 40px;
+    width: 40px;
+}
+.navigation-menu {
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+    width: 490px;
+    flex-wrap: wrap;
+}
+.navigation-menu a{
+    font-size: 15px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+}
+.bottom-border {
+    height: 2.1px;
+    width: 20px;
+    margin-top: 3px;
+}
+#a-home {
+    color: #4682b4;
+}
+#home {
+    width: 50px;
+    background-color: #4682b4;
+    margin-left: 45px;
+}
+#jobs {
+    width: 46px;
+    background-color: #f3f8ff;
+    margin-left: 38px;
+}
+#post-job {
+    width: 90px;
+    background-color: #f3f8ff;
+    margin-left: 35px;
+}
+#message {
+    width: 72px;
+    background-color: #f3f8ff;
+    margin-left: 35px;
+}
+#you {
+    width: 41px;
+    background-color: #f3f8ff;
+    margin-left: 35px;
+}
+.login {
+    margin-left: 250px;
+}
+.register {
+    margin-left: 30px;
+}
+.login button{
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: #284e6e;
+    color: #f3f8ff;
+    font-size: 15px;
+}
+.register button {
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: #284e6e;
+    color: #f3f8ff;
+    font-size: 15px;
+}
+.introductory {
+    background-color: #7ea7cb;
+    height: 680px;
+    margin-bottom: 10px;
+}
+.img-introductory {
+    height: 620px;
+    width: 1200px;
+    margin: 30px;
+    margin-left: 130px;
+    border-radius: 20px;
+}
+.about-us {
+    background-color:#b5deff;
+    margin: 5px;
+    border-radius: 5px;
+    height: 680px;
+    width: 1462px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.about-us-section {
+    background-image: url(../Images/about-us.png);
+    height: 500px;
+    width: 1402px;
+    margin-left:30px;
+    border-radius: 20px;
+    padding-top: 180px;
+}
+.about-us-section p{
+    margin-left: 650px;
+    margin-right: 50px;
+    font-size: 20px;
+    color:#4682b4;
+}
+.feedback {
+    background-color: #f3f8ff;
+    margin: 5px;
+    border-radius: 5px;
+    height: 733px;
+    width: 1462px;
+}
+.feedback img {
+    height: 120px;
+    width: 310px;
+    margin-top: 30px;
+    margin-left: 600px;
+}
+.feedback-cards-container {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.feedback-card {
+    height: 200px;
+    width: 300px;
+    background-color: #cedeeb;
+    box-shadow: 2px 2px 5px #7ea7cb ;
+    border-radius: 50px;
+    margin-top: 40px;
+    color: black
+}
+.feedback p {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.footer {
+    background-color: #284e6e;
+    height: 150px;
+    width: 1480px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.footer p {
+    color: #f3f8ff;
+}
+.footer-elements{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 270px;
+    justify-content: center;
+}
+.footer-elements div {
+    width: 300px;
+    height: 40px;
+}
+.footer-elements div a {
+    color: #f3f8ff;
+    text-decoration: none;
+}
+.made-with-love {
+    margin-left: 200px;
+}
+.made-with-love div a {
+    text-decoration: none;
+    color: #f3f8ff;
+}
+.icon {
+    font-size: 20px;
+    color: #f3f8ff;
+    margin: 5px;
+}
