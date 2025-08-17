@@ -3,16 +3,16 @@
     margin: 0;
 }
 .div-menu {
-    background-color: #f3f8ff;
+    background-color: #7ea7cb;
     height: 50px;
-    width: 1480px;
+    width: 1473px;
     display: flex;
     align-items: center;
 }
 .menubar {
     background-color: #f3f8ff;
     height: 55px;
-    width: 1490px;
+    width: 1473px;
     display: flex;
     align-items: center;
     position:fixed;
@@ -97,7 +97,6 @@
 .introductory {
     background-color: #7ea7cb;
     height: 680px;
-    margin-bottom: 10px;
 }
 .img-introductory {
     height: 620px;
@@ -107,19 +106,17 @@
     border-radius: 20px;
 }
 .about-us {
-    background-color:#b5deff;
-    margin: 5px;
-    border-radius: 5px;
+    background-color:#7ea7cb;
     height: 680px;
-    width: 1462px;
+    width: 1473px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 .about-us-section {
     background-image: url(../Images/about-us.png);
     height: 500px;
-    width: 1402px;
-    margin-left:30px;
+    width: 1400px;
+    margin-left:35px;
     border-radius: 20px;
     padding-top: 180px;
 }
@@ -131,10 +128,8 @@
 }
 .feedback {
     background-color: #f3f8ff;
-    margin: 5px;
-    border-radius: 5px;
     height: 733px;
-    width: 1462px;
+    width: 1473px;
 }
 .feedback img {
     height: 120px;
@@ -166,7 +161,7 @@
 .footer {
     background-color: #284e6e;
     height: 150px;
-    width: 1480px;
+    width: 1473px;
     padding-top: 10px;
     display: flex;
     flex-direction: row;

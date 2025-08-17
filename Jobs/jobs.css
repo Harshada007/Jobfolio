@@ -5,7 +5,7 @@
 .div-menu {
     background-color: #f3f8ff;
     height: 50px;
-    width: 1480px;
+    width: 1473px;
     display: flex;
     align-items: center;
 }
@@ -95,7 +95,7 @@
     font-size: 15px;
 }
 .main-div {
-    background-color:#b5deff;
+    background-color:#f3f8ff;
     display: flex;
 }
 .job-cards-container {
@@ -104,20 +104,32 @@
     padding: 10px;
     flex-grow: 1;
 }
+.job-cards-container h2 {
+    margin-left: 20px;
+}
 .job-card {
-    background-color:#f3f8ff;
     width: 700px;
     margin: 20px;
     height: 200px;
     border-radius: 10px;
+    background-color: #cedeeb;
+    box-shadow: 2px 2px 5px #7ea7cb ;
+    color: black;
+    padding: 5px;
 }
 .filter-card {
-    background-color:#f3f8ff;
+    background-color:#cedeeb;
+    box-shadow: 2px 2px 5px #7ea7cb ;
     border-radius: 10px;
     height: 800px;
-    margin-right: 100px;
-    width: 600px;
+    width: 460px;
     margin-top: 50px;
+    margin-right: 100px;
     position: sticky;
-    top: -90px;
+    top: -130px;
+    padding: 10px;
+}
+.filter-card h2 {
+    padding-left: 200px;
+    margin-bottom: 5px;
 }

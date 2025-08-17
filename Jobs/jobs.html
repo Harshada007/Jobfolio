@@ -38,7 +38,7 @@
     <div class="div-menu"></div>
     <div class="main-div">
         <div class="job-cards-container">
-            <h1>Jobs</h1>
+            <h2>Jobs</h2>
             <div class="job-card" id="job1">job1</div>
             <div class="job-card" id="job2">job2</div>
             <div class="job-card" id="job3">job3</div>
@@ -46,9 +46,56 @@
             <div class="job-card" id="job5">job5</div>
             <div class="job-card" id="job6">job6</div>
         </div>
-        <div class="filter-card">
-            <h1>Filter</h1>
-        </div>
+        <form action="">
+            <div class="filter-card">
+                <h2>Filter</h2>
+                <hr>
+                <label for="field">Field</label>
+                <input name="field" class="field" type="text">
+                <label for="">Quik links</label>
+                <button>IT</button>
+                <button>Finance</button>
+                <button>Design</button>
+                <button>Marketing</button> 
+                <hr>
+                <label for="job-title">Job title</label>
+                <select name="job-title" id="job-title">
+                    <option value="">employee</option>
+                    <option value="">manager</option>
+                    <option value="">assistant</option>
+                </select>
+                <hr>
+                Job type
+                <input type="radio" id="full" name="type" value="full">
+                <label for="full">Full Time</label><br>
+                <input type="radio" id="part" name="type" value="part">
+                <label for="part">Part Time</label><br>
+                <input type="radio" id="con" name="type" value="con">
+                <label for="con">Contract</label><br>
+                <input type="radio" id="intern" name="type" value="intern">
+                <label for="intern">Internship</label><br>
+                <hr>
+                <label for="location">Location</label>
+                <select name="location" id="location">
+                    <option value="">delhi</option>
+                    <option value="">mumbai</option>
+                    <option value="">banglore</option>
+                </select>
+                <hr>
+                <label for="sal">Salary 50K to 50L</label>
+                <input type="range" id="" name="sal" min="50,000" max="50,00,000">
+                <hr>
+                Job type
+                <input type="radio" id="" name="exp" value="">
+                <label for="exp">Fresher</label><br>
+                <input type="radio" id="" name="exp" value="">
+                <label for="exp">senior</label><br>
+                <input type="radio" id="" name="exp" value="con">
+                <label for="exp">Mid-level</label><br>
+                <hr>
+                <input type="submit">
+            </div>
+        </form>
     </div>
 </body>
 </html>

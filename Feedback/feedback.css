@@ -1,0 +1,61 @@
+* {
+    font-family: "M PLUS Rounded 1c", cursive;
+    margin: 0;
+}
+body {
+    background-color: #cedeeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+.container {
+    width: 500px;
+    background-color: #f3f8ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+    text-align: center;
+}
+h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #7ea7cb;
+    border-radius: 5px;
+}
+.star-rating {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    font-size: 25px;
+}
+.star-rating input {
+    display: none;
+}
+.star-rating label {
+    color: #cedeeb;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.star-rating input:checked ~label, .star-rating label:hover, .star-rating label:hover ~label {
+    color: gold;
+}
+textarea {
+    width: 400px;
+    height: 80px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+button {
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    background-color: #284e6e;
+    color: #f3f8ff;
+    font-size: 15px;
+}
